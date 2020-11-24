@@ -120,6 +120,8 @@ class _InstagramCloneState extends State<InstagramClone> {
 
       // BottomNavigationBar
       bottomNavigationBar: BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         unselectedItemColor: Colors.black,
         selectedItemColor: Colors.blue,
         backgroundColor: mainColor,
