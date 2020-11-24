@@ -32,7 +32,7 @@ Widget post(String userImage, String userName, String postPic) {
                 onPressed: () {},
                 alignment: Alignment.centerRight,
                 icon: Icon(
-                  Icons.more_horiz,
+                  Icons.more_vert,
                 ),
               ),
             )
@@ -58,11 +58,20 @@ Widget post(String userImage, String userName, String postPic) {
             ),
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.chat_bubble_outline),
+              icon: Icon(Icons.mode_comment_outlined),
             ),
             IconButton(
               onPressed: () {},
               icon: Icon(Icons.send),
+            ),
+            Expanded(
+              child: IconButton(
+                onPressed: () {},
+                alignment: Alignment.centerRight,
+                icon: Icon(
+                  Icons.airplay,
+                ),
+              ),
             ),
           ],
         ),
